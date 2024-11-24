@@ -1,4 +1,4 @@
-#include <iostream>
+#include <stdio.h>
 
 
 struct myArray{
@@ -10,7 +10,7 @@ struct myArray{
 void createArray(struct myArray *a,  int tSize, int uSize){
    ( *a ).total_size = tSize;
    (* a).use_size = uSize;
-   int * ptr = (int * )malloc(tSize *  sizeof(int));
+   (* a).ptr = (int * )malloc(tSize *  sizeof(int));
 }
 int main(){
     struct myArray marks;
