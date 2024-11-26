@@ -4,7 +4,7 @@ using namespace std;
 void display(int arr[], int n) {
     // Traversal 
     for (int i = 0; i < n; i++) {
-        printf("%d\n", arr[i]);
+        cout << arr[i] << endl;
     }
 }
 
