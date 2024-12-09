@@ -1,1 +1,3 @@
-# CPP-ChaiCode
+# CPP-CodeBeauty
+
+for exams lol
